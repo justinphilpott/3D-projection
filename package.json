@@ -1,6 +1,13 @@
 {
+  "name": "perspective-projection",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "dependencies": {
-    "@pixi/core": "^6.1.3"
+    "@pixi/core": "^6.1.3",
+    "pixi.js": "^6.1.3"
   },
   "devDependencies": {
     "parcel": "^2.0.0"

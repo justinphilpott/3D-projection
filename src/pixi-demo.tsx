@@ -1,10 +1,12 @@
+import * as PIXI from 'pixi.js'
+
 const app = new PIXI.Application();
 document.body.appendChild(app.view);
 
 // Get the texture for rope.
-const starTexture = PIXI.Texture.from('examples/assets/star.png');
+const starTexture = PIXI.Texture.from('star.png');
 
-const starAmount = 1000;
+const starAmount = 10000;
 let cameraZ = 0;
 const fov = 20;
 const baseSpeed = 0.025;
@@ -71,3 +73,4 @@ app.ticker.add((delta) => {
         star.sprite.rotation = Math.atan2(dyCenter, dxCenter) + Math.PI / 2;
     }
 });
+

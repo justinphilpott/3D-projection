@@ -1,0 +1,12 @@
+{
+  "files.watcherExclude": {
+    "**/.git/objects/**": false,
+    "**/.git/subtree-cache/**": false,
+    "**/.hg/store/**": false,
+    "**/**": true,
+    "**/node_modules/*/**": false
+  },
+  "files.watcherInclude": [
+    "src/**"
+  ]
+}
